@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5E3C9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.opponents-hand{
+    position: absolute;
+    background-color: #B4CFB0;
+    width: 400px;
+    top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-hand{
+    position: absolute;
+    background-color: #94B49F;
+    width: 400px;
+    bottom: 50px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    background-color: #789395;
+    transition: 2;
+}
+button:hover{
+    transform: scale(1.05);
+    background-color: #5c979b;
+}
+.card{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 80%;
+    height: 60%;  
+}
+.play-area{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse
+}
+.hidden{
+    display: none;
+}
